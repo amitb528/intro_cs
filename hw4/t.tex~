@@ -1,0 +1,12 @@
+%        File: t.tex
+%     Created: Thu Dec 17 12:00 PM 2015 JST
+% Last Change: Thu Dec 17 12:00 PM 2015 JST
+%
+\documentclass[a4paper]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[english, hebrew]{babel}
+\begin{document}
+םלוכל םולש
+\end{document}
+
+

@@ -1,0 +1,67 @@
+%        File: 208520528.tex
+%     Created: Sat Nov 14 04:00 PM 2015 JST
+% Last Change: Sat Nov 14 04:00 PM 2015 JST
+%
+\documentclass[a4paper]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[english, hebrew]{babel}
+\usepackage{listings}
+\usepackage{mathtools}
+\lstset{language=Python}
+\begin{document}
+\section*{שאלה 1}
+\subsection*{א}
+לא, כיוון שהפקודה מעתיקה את האיברים בסדר הפוך לרשימה חדשה. הקצאת הזכרון לרשימה החדשה תלויה בגודל הקלט.
+\subsection*{ב}
+הפונקציה אינה מחזירה דבר )enoN(. למחרוזות אין פונקצית esrever כיוון שהן elbatummi.
+\section*{שאלה 2}
+\subsection*{א}
+מספר קטן ביותר של פעולות:
+1 + m
+\\
+0...001 = b
+\\
+מספר גדול ביותר של פעולות:
+m2
+\\
+1...11 = b
+\\
+\section*{שאלה 3}
+\subsection*{א}
+6913
+\selectlanguage{english}
+\begin{lstlisting}
+math.floor(math.log(3**2016,2)) + 1
+len(bin(3**2016)[2:])
+\end{lstlisting}
+\selectlanguage{hebrew}
+\subsection*{ג}
+\subsubsection*{I}
+71 = xam 41 = nim
+\subsubsection*{II}
+02 = xam 02 = nim
+\begin{eqnarray*}
+    \text{0x80000} = 524288 = 8*16^4 = 2^{19} \\
+    \text{0xFFFFF} = 16^5 - 1 < 2^{20} \\
+    \Rightarrow \forall x (\text{0x80000} \leq x \leq \text{0xFFFFF}) \Rightarrow (2^{19} \leq x < 2^{20}) \Leftrightarrow \text{
+        20 אוה 2 סיסבב וכרוא}
+\end{eqnarray*}
+\subsection*{ד}
+\subsubsection*{I}
+\begin{equation*}
+    N*2^{k} + 2^{k} - 1
+\end{equation*}
+\subsubsection*{II}
+\begin{equation*}
+    N+2^{\lfloor \log_{2}N \rfloor + 1}
+\end{equation*}
+\section{שאלה 4}
+\subsection*{א}
+כל סדרה שתתחיל במספר ראשוני תהיה מהצורה
+$p \rightarrow 1 \rightarrow 0$
+כיוון שהמחלק ממש היחיד של כל ראשוני הוא 1 ול1 אין מחלקים ממש. כיוון שקיימים אינסוף ראשוניים, קיימות אינסוף סדרות כאלו שנגמרות באפס.
+\subsection*{ב}
+268
+\subsection*{ג}
+אם הפונקציה הייתה צריכה לבדוק גם מקרים בהם הסדרה היא אינסופית, אז מימוש בו בונים את הסדרה ובודקים מאיזה סוג היא אינו אפשרי. הסיבה לכך היא שעבור סדרות אינסופיות הפונקציה לא תעצור לעולם כי אין לה דרך לדעת האם הסדרה היא אינסופית או שבהמשך הבנייה תהיה לולאה. כנראה שגם מיכל לא מכירה מימוש שמתגבר על הבעיה הזו או שהוא מסובך מדי ומתאים יותר לקורס במתמטיקה, לכן יעל התנגדה נחרצות.
+\end{document}

@@ -1,0 +1,206 @@
+%        File: e.tex
+%     Created: Sat Nov 28 04:00 PM 2015 JST
+% Last Change: Sat Nov 28 04:00 PM 2015 JST
+%
+\documentclass[a4paper]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[english, hebrew]{babel}
+\usepackage{listings}
+\usepackage{mathtools}
+\lstset{language=Python}
+\begin{document}
+\section*{שאלה 1}
+\subsection*{א}
+\subsubsection*{1}
+\begin{equation*}
+    n(\log_{2}n)^{k}
+    = n(\frac {\log_{10}n}{\log_{10}2})^{k} 
+    = \frac{1}{(\log_{10}2)^k} n(\log_{10}n)^k 
+    = O(n(\log_{10}n)^k)
+\end{equation*}
+נכון
+\subsubsection*{2}
+\begin{equation*}
+    \begin{split}
+        2^{\log_{2}n} = 2^{\frac{\log_{10}n}{\log_{10}2}}
+        = (2^{\frac{1}{\log_{10}2}})^{\log_{10}n}
+        \geq (2^{3.3})^{\log_{10}n} \\
+        = 2^{2.3 \log_{10}n} 2^{\log_{10}n}
+        \Rightarrow 2^{\log_2 n} \notin O(2^{\log_{10}n})
+    \end{split}
+\end{equation*}
+לא נכון
+\subsubsection*{3}
+\begin{eqnarray*}
+    f(n) = c\log_2 n \Rightarrow 2^{f(n)} = 2^{c\log_2 n} = n^c
+    \Rightarrow 2^{f(n)} \notin O(n)
+\end{eqnarray*}
+נכון
+\subsubsection*{4}
+\begin{equation*}
+    \sum\limits_{i = 1}^n \sqrt{2^{i}} = \sum\limits_{i = 1}^n (\sqrt{2})^{i}
+    = \frac{\sqrt{2} (\sqrt{2}^n - 1)}{\sqrt{2} - 1}
+    = \frac{\sqrt{2}}{\sqrt{2} - 1} \sqrt{2}^n - \frac{\sqrt{2}}{\sqrt{2} - 1}
+    \in O(\sqrt{2}^n)
+\end{equation*}
+נכון
+\subsection*{ב}
+\subsubsection*{1}
+הלולאה מבצעת
+n
+איטרציות. בכל איטרציה מוסיפים לרשימה 
+i
+איברים. כלומר שהפונקציה מבצעת
+$\sum\limits_{i=0}^{n-1} i = \frac{(n-1)n}{2} = \frac{n^2}{2} - \frac{n}{2} = O(n^2)$
+\subsubsection*{2}
+הלולאה מבצעת
+n
+איטרציות. בכל איטרציה מוסיפים ללולאה את מספר האיברים שיש ב
+tsl
+. כלומר שהפונקציה מבצעת
+$(n + 2n + 4n + \cdots + 2^{n-1}n) = \sum\limits_{i=0}^{n-1} 2^i n 
+= n \sum\limits_{i=0}^{n-1} 2^i
+= n (2^n - 1) = O(n 2^n)$
+\subsubsection*{3}
+הלולאה מבצעת
+n
+איטרציות. בכל איטרציה יוצרים רשימה חדשה מאיברי הרשימה הנוכחית ועוד רשימת מספרים באורך זהה. כלומר שהפונקציה מבצעת
+\begin{equation*}
+    \begin{split}
+        (2n + 2^2n + 2^3n + \cdots + 2^n n) = \sum\limits_{i=1}^n 2^i n
+        = n \sum\limits_{i=1}^n 2^i \\
+        = n \sum\limits_{i=0}^n 2^i - 1
+        = n (2^{n+1} - 1) = O(n 2^{n+1}) = O(n 2^{n})
+    \end{split}
+\end{equation*}
+\subsubsection*{4}
+הלולאה מבצעת
+n
+איטרציות. בכל איטרציה אנחנו מוסיפים לרשימה רשימה חדשה של איברים בגודל
+00001
+שלא ממש אכפת לנו מהאיברים שנמצאים בה. כלומר שהפונקציה מבצעת
+$ \sum\limits_{i=0}^{n-1} 10000 = 10000n = O(n)$
+\subsection*{ג}
+בכל איטרציה של הלולאה מתווסף איבר לרשימה
+l
+. הלולאה ממשיכה כל עוד היא לא הגיעה לאיבר האחרון ברשימה, ולכן היא לעולם לא מסתיימת.
+\section*{שאלה 2}
+\subsection*{ב}
+428.0-
+\subsection*{ג}
+התוכנית עוצרת כיוון שהיא מבצעת מקסימום מספר סופי של פעולות )עבור הארגומנטים הנתונים(, אך רק לאחר זמן רב )עבור האפסילון הדיפולטי( כיוון שהיא נדרשת לבצע מעל ל
+$10^{13}$
+פעולות.
+fd
+\section*{שאלה 3}
+\subsection*{א}
+בניית הרשימה 
+lla
+לוקחת
+)mn(O
+זמן, וזהו גם גודלה.
+לולאת ה
+elihw
+מתבצעת 
+)mn(O
+פעמים )מוסיפים איבר אחד בכל פעם(. בכל איטרציה  מציאת המינימום היא הפעולה היקרה ביותר וסיבוכיותה
+)mn(O
+. לכן סה``כ סיבוכיות הפונקציה היא
+$O(n^{2}m^{2})$
+\subsection*{ד}
+הלולאה מבצעת 
+m
+איטרציות. בכל איטרציה הפונקציה ממזגת את הרשימה הממוזגת שהיא בנתה עד כה עם רשימה נוספת מ
+stsl\_fo\_tsl
+. כל מיזוג לוקח
+)2n + 1n(O
+. כלומר שסיבוכיות הפונקציה היא
+\begin{equation*}
+    \begin{split}
+        ( (0+n) + (n+n) + (2n+n) + (3n + n) + \cdots + ( (m-1)n + n)) \\
+        = \sum\limits_{i=0}^{m-1} (in+n)
+        = n\sum\limits_{i=0}^{m-1} i + \sum\limits_{i=0}^{m-1} n
+        = n \frac{(m-1)m}{2} + (m-1)n \\
+        = \frac{nm^2}{2} + \frac{nm}{2} - n
+        = O(nm^2)
+    \end{split}
+\end{equation*}
+\subsection*{ה}
+הסיבוכיות הכללית של הדרך הראשונה היא: \\
+$O(nm \log_2 (nm))$ \\
+הסיבוכיות הכללית של הדרך השנייה היא: \\
+$O(mn \log_2 n + nm^2) = O(mn(\log_2 n + m))$
+\subsubsection*{a}
+הסיבוכיות של הדרך הראשונה: \\
+$O(n \log_2 (cn)) = O(n (\log_2 n + \log_2 c)) = O(n \log_2 n)$ \\
+הסיבוכיות של הדרך השנייה: \\
+$O(n (\log_2 n + c) = O(n \log_2 n)$ \\
+לכן מבחינת סיבוכיות שתי הדרכים עדיפות באותה מידה.
+\subsubsection*{b}
+הסיבוכיות של הדרך הראשונה: \\
+$O(n \log_2 n \log_2(n \log_2 n)) = O(n \log_2 n (\log_2 n + \log_2 \log_2 n)) = O(n \log_2^2 n)$ \\
+הסיבוכיות של הדרך השנייה: \\
+$O(n \log_2 n (\log_2 n + \log_2 n)) = O(n \log_2 n (2\log_2 n)) = O(n \log_2^2 n)$ \\
+לכן מבחינת סיבוכיות שתי הדרכים עדיפות באותה מידה. 
+\subsubsection*{c}
+הסיבוכיות של הדרך הראשונה: \\
+$O(n^2 \log_2 n^2)$ \\
+הסיבוכיות של הדרך השנייה: \\
+$O(n^2 (\log_2 n + n)) = O(n^3)$ \\
+לכן מבחינת סיבוכיות הדרך הראשונה עדיפה.
+\section*{שאלה 4}
+\subsection*{א}
+\begin{equation*}
+    2c \log_2 100 = c \log_2 100^2 = c \log_2 10000 \Rightarrow n' = 10000
+\end{equation*}
+\subsection*{ב}
+\begin{equation*}
+    2(c \cdot 100) = c \cdot 200 \Rightarrow n' = 200
+\end{equation*}
+\subsection*{ג}
+\begin{equation*}
+    2c \cdot 100^2 = c \cdot 20000 = c \cdot \sqrt{2} \cdot 100
+    \Rightarrow n' = \lfloor \sqrt{2} \cdot 100 \rfloor = 141 
+\end{equation*}
+\subsection*{ד}
+\begin{equation*}
+    2c \cdot 2^{100} = c \cdot 2^{101} \Rightarrow n' = 101
+\end{equation*}
+\section*{שאלה 6}
+\subsection*{א}
+ראשית נשים לב כי השורש של 
+1 - 000000001**x
+ושל
+2 - 2**x
+הוא 1.
+\subsubsection*{1}
+לפי חישוב הנגזרת ב0 של
+1f
+קרובה עד כדי אפסילון ל0 ולכן הגיוני שתודפס ההודעה בשורה
+42
+. בנוסף השורש של
+2f
+הוא 1 ולכן הגיוני שקיבלנו
+1=toor
+. לפיכך האפשרות תיתכן.
+\subsubsection*{2}
+כיוון שהשורש של הפונקציה
+2f
+הוא 1 ו
+toor
+קרוב ל0 האפשרות לא תיתכן.
+\subsubsection*{3}
+לפי חישוב הנגזרת שמחשב האלגוריתם ב0 של 
+1f
+היא
+100.0
+כיוון שאינה קרובה עד כדי אפסילון ל0, לא יתכן כי מודפסת ההודעה בשורה 
+42
+.
+\subsubsection*{4}
+כיוון שהשורש של הפונקציה
+2f
+הוא 1 ו
+toor
+קרוב ל0 האפשרות לא תיתכן.
+\end{document}
