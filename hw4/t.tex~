@@ -2,11 +2,189 @@
 %     Created: Thu Dec 17 12:00 PM 2015 JST
 % Last Change: Thu Dec 17 12:00 PM 2015 JST
 %
-\documentclass[a4paper]{article}
+\documentclass{article}
+\usepackage{amsmath}
 \usepackage[utf8x]{inputenc}
-\usepackage[english, hebrew]{babel}
+\usepackage[hebrew, english]{babel}
+\usepackage{tikz}
+\usepackage{fancybox}
+\usetikzlibrary{trees}
 \begin{document}
-םלוכל םולש
+
+\selectlanguage{hebrew}
+\section*{שאלה 1}
+
+\subsection*{א}
+\selectlanguage{hebrew}
+
+בכל צומת של הרקורסיה ישנה קריאה רקורסיבית אחת בלבד עם רשימה באורך קטן ב1 כארגומנט.
+לכן עץ הרקורסיה יהיה בעומק n. 
+נשים לב כי בכל צומת של הרקורסיה הפונקציה מבצעת מספר חסום של פעולות בסיבוכיות $O(1)$, לכן סיבוכיות כל צומת היא גם כן $O(1)$.
+לכן הסיבוכיות של הפונקציה היא $O(n)$.
+\\
+ 
+\selectlanguage{english}
+\begin{center}
+  \begin{tikzpicture}[level/.style={sibling distance=60mm/#1}]
+    \node [circle, draw] {$n$}
+      child {node [circle, draw] {$n-1$}
+        child {node [circle, draw] {$n-2$}
+          child {node {$\vdots$}
+            child{node [circle, draw] {$1$}
+              child [grow=right]{node {$O(1)$} edge from parent[draw=none]
+                child [grow=up]{node {$\vdots$} edge from parent[draw=none]
+                  child {node {$O(1)$} edge from parent[draw=none]
+                    child {node {$O(1)$} edge from parent[draw=none]
+                      child {node {$O(1)$} edge from parent[draw=none]}
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        };
+  
+  \end{tikzpicture}
+\end{center}
+
+\selectlanguage{hebrew}
+\subsection*{ג}
+
+בכל צומת של הרקורסיה ישנן 2 קריאות רקורסיביות עם רשימה קטנה פי 2 כארגומנט.
+לכן עץ הרקורסיה יהיה בעומק $\log_2{n}$.
+נשים לב כי בכל צומת של הרקורסיה הפונקציה מבצעת מספר חסום של פעולות בסיבוכיות $O(1)$ ומכאן שסיבוכיות כל צומת היא גם $O(1)$.
+בכל רמה $l$ של העץ יש $2^l$ צמתים ולכן הסיבוכיות של כל רמה כזו היא $O(2^l)$.
+מכאן שהסיבוכיות של הפונקציה עבור קלט בגודל $n$ היא:
+
+$$O(2^0 + 2^1 + 2^2 + \dots + 2^{\log_2{n}}) = O(2 \cdot 2^{log_2{n}} - 1) = O(2n) = O(n)$$
+
+\selectlanguage{english}
+\begin{center}
+  \begin{tikzpicture}[level/.style={sibling distance=60mm/#1},
+    level 3/.style={sibling distance=15mm},
+    level 4/.style={sibling distance=10mm}]
+    \node [circle, draw] {$n$}
+      child {node [circle, draw] {$\frac{n}{2}$}
+        child {node [circle, draw] {$\frac{n}{2^2}$}
+          child {node {$\vdots$}
+            child {node {$1$}}
+            child {node {$1$}}
+            }
+          child {node {$\vdots$}
+            child {node {$1$}}
+            child {node {$1$}}
+            }
+          }
+        child {node [circle, draw] {$\frac{n}{2^2}$}
+          child {node {$\vdots$}
+            child {node {$1$}}
+            child {node {$1$}}
+            }
+          child {node {$\vdots$}
+            child {node {$1$}}
+            child {node {$1$}}
+            }
+          }
+        }
+      child {node [circle, draw] {$\frac{n}{2}$}
+        child {node [circle, draw] {$\frac{n}{2^2}$}
+          child {node {$\vdots$}
+            child {node {$1$}}
+            child {node {$1$}}
+            }
+          child {node {$\vdots$}
+            child {node {$1$}}
+            child {node {$1$}}
+            }
+          }
+        child {node [circle, draw] {$\frac{n}{2^2}$}
+          child {node {$\vdots$}
+            child {node {$1$}}
+            child {node {$1$}}
+            }
+          child {node {$\vdots$}
+            child {node {$1$}}
+            child {node {$1$}}
+            }
+          }
+        };
+  \end{tikzpicture}
+\end{center}
+
+\selectlanguage{hebrew}
+\subsection*{ד}
+
+ממוצע זמני ריצה של $1000$ הרצות:
+
+\selectlanguage{english}
+\begin{center}
+  \begin{tabular}{|l|l|l|l|}
+    \hline
+    Function & $n = 1000$ & $n = 2000$ & $n = 4000$ \\ \hline
+    max1 & 0.01112 & 0.04144 & 0.17369 \\ \hline
+    max2 & 0.00505 & 0.01017 & 0.01998 \\ \hline
+    max\_list11 & 0.00403 & 0.00807 & 0.01676 \\ \hline
+    max\_list22 & 0.00441 & 0.00872 & 0.01748 \\ \hline
+  \end{tabular}
+\end{center}
+
+\selectlanguage{hebrew}
+\subsection*{ה}
+
+ראשית נסתכל על זמני הריצה של
+$max\_list11$
+ו
+$max\_list22$
+.
+בין הרצה להרצה אנו מעלים את $n$ פי 2 וזמני הריצה מראים עלייה של פי 2 גם. כלומר שזמני הריצה תלויים )בקירוב( ליניארית ב$n$. הטענה מתיישבת עם זמני הריצה שחישבנו: $O(n)$.
+\\
+\\
+כעת נסתכל על זמני הריצה של
+$max1$
+בין הרצה להרצה אנו מעלים את $n$ פי 2 וזמני הריצה מראים עלייה של פי 4. כלומר שזמני הריצה תלויים )בקירוב( ליניארית ב$n^2$. עץ הרקורסיה של $max1$ זהה לזה של $max\_list11$ אך סיבוכיות כל צומת בה היא $O(n)$ בגלל השימוש ב$slicing$ ומכאן נובע שסיבוכיותה הכוללת היא $O(n^2)$ בהתאמה למדידות.
+\\
+\\
+זמני הריצה של $max2$ נראים ליניאריים למרות השימוש ב$slicing$. הסיבה לכך שהשימוש בו גורם לכל צומת להיות $O(\frac{n}{2^l})$, לכן סיבוכיות רמה $l$ בעץ הרקורסיה היא $O(n)$ והסיבוכיות הכוללת היא $O(n \cdot \log_2{n})$ כאשר $\log_2{n}$ בעל השפעה זניחה על זמני הריצה.
+
+
+\selectlanguage{hebrew}
+\section*{שאלה 5}
+
+\subsection*{א}
+
+\begin{center}
+  \begin{tabular}{|l|l|l|l|l|l|}
+    \hline
+    n & 100 & 200 & 300 & 400 & 500 \\ \hline
+    density & 0.0131 & 0.0068 & 0.0069 & 0.0042 & 0.0017 \\ \hline
+  \end{tabular}
+\end{center}
+
+לפי משפט המספרים הראשוניים 
+$\pi(x) \approx \frac{x}{\ln x}$.
+לכן:
+
+$$\pi(2^{n-1}) \approx \frac{2^{n-1}}{\ln 2^{n-1}} = \frac{2^{n-1}{(n-1)\ln 2}$$
+
+\selectlanguage{hebrew}
+\section*{שאלה 6}
+
+הסטודנט הזדוני יכול לחשב את הסוד המשותף של יעל ומיכל. נוכיח זאת באופן מתמטי:
+יהיו p, g מספרים שלמים ידועים לכל,
+$p > 3$
+ראשוני,
+a, b מספרים שלמים זרים לp סודיים,
+ו 
+$x \equiv g^a \pmod{p}$,
+$y \equiv g^b \pmod{p}$.
+אם ידוע
+$a'$
+כך ש
+$x \equiv g^{a'}$
+אזי הסטודנט יכול לחשב:
+
+$$ y^{a'} \equiv (g^b)^{a'} \equiv g^{ba'} \equiv (g^{a'})^b \equiv x^b
+\equiv (g^a)^b \equiv g^{ab} \equiv key$$
+
 \end{document}
-
-
