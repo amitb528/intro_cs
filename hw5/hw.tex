@@ -8,23 +8,24 @@
 
 \usepackage[utf8x]{inputenc}
 \usepackage[english, hebrew]{babel}
+\usepackage{graphicx}
 \usepackage{hebfont}
+\usepackage{float}
 
 \begin{document}
-\section{שאלה 3}
-\subsection{א}
+\section*{שאלה 3}
+\subsection*{א}
 
-הפונקציה ממירה את הרשימה $words$ לסט, חישוב שלוקח $O(n)$ זמן בהנחה שסט ממומש כמילון. נניח כי מספר המילים השונות הוא $k$ ספירת מספר ההופעות של מילה לוקחת $O(n)$ זמן ומתבצעת $k$ פעמים. במקרה הטוב $k = 1$ ואז סיבוכיות הפונקציה היא $O(n)$ במקרה הרע $k = n$ ואז סיבוכיות הפונקציה היא $O(n^2)$.
+הפונקציה ממירה את הרשימה $words$ לסט, חישוב שלוקח $O(n)$ זמן בהנחה שסט ממומש כמילון. נניח כי מספר המילים השונות הוא $k$ ספירת מספר ההופעות של מילה לוקחת $O(n)$ זמן ומתבצעת $k$ פעמים. לכן סיבוכיות הפונקציה היא $O(kn)$. במקרה הטוב $k = 1$ ואז סיבוכיות הפונקציה היא $O(n)$ במקרה הרע $k = n$ ואז סיבוכיות הפונקציה היא $O(n^2)$.
 
 במקרה הטוב הפונקציה תבצע כ$5 \cdot 10^4$ פעולות בלבד ולכן תרוץ באלפיות שנייה בודדות.
 במקרה הגרוע הפונקציה תבצע כ$2.5 \cdot 10^9$ פעולות ולכן זמן הריצה שלה יהיה בערך $100$ שניות.
 )בהנחה שפייתון מבצעת בין $10^7$ ל $10^8$ פעולות בשנייה(
 
-יש בקובץ כ$50000$ מילים. בהנחה שהספר מעניין, נסיק כי המילים שבו מגוונות כמו בספרים אנגלים אחרים ולכן זמן הריצה יהיה קרוב למקרה הגרוע אך נמוך ממנו כיוון שבאנגלית קיימות מילים המופיעות הסתברותית משמעותית יותר ממילים אחרות \\
-\L{(the, is, ...)}
- לכן נסיק שהפונקציה תרוץ בערך $10$ שניות.
+יש בקובץ כ$50000$ מילים. בהנחה שהספר מעניין, נסיק כי יש בו כ$\frac{n}{5}$ מילים שונות. לפיכך הפעולה תבצע כ
+$5 \cdot 10^4 \cdot 10^4 = 5 \cdot 10^8$ פעולות. לכן נסיק שהפונקציה תרוץ בערך $15$ שניות.
  
-\subsection{ז}
+\subsection*{ז}
 
 \selectlanguage{english}
 \begin{center}
@@ -52,5 +53,109 @@ that & 630 \\
 \hline
 \end{tabular}
 \end{center}
+
+\selectlanguage{hebrew}
+\section*{שאלה 4}
+
+\subsection*{א}
+
+הבעיה בקוד שרוני כתב היא שהוא יחזיר רק את הזוגות עם $i = 0$.
+הסיבה לכך היא שהגנרטור אף פעם לא יצא מהלולאה הפנימית שבה משנים רק את $j$.
+
+\section*{שאלה 5}
+
+\subsection*{ב}
+
+\subsubsection*{a}
+
+נבחן את פעולת $local-means$.
+נשים לב שכאשר הסביבה גדלה התמונה מטושטשת יותר. הגדלת הסביבה גורמת לרעש שבתמונה להיות דהוי יותר אך הוא נמרח ותופס יותר מקום. הפעלה של הפעולה פעמיים משפיעה באותו האופן אך במידה מועטה.
+
+נבחן את פעולת $local-medians$.
+התמונה כוללת אזורים יחסית עגולים, מטושטשים ויחסית אחידים מבחינת צבע שגדלים כתלות בגודל הסביבה. כשהסביבה קטנה הרעש מקבל צבע אחיד אך בהיר כיוון שאין השפעה של האזור מסביבו בתמונה. כשהסביבה גדולה הרעש מקבל צבע המתאים לאזור סביבו.
+
+\subsubsection*{b}
+
+נבחן את פעולת $modified-local-medians$.
+ניתן לראות כי עבור סביבה בגודל מתאים (2) או עבור הפעלה חוזרת (3 פעמים) של הפעולה נקבל את התמונה ללא הרעש. לעומת הפעולות הקודמות, פעולה זו שומרת על איכות התמונה וכמעט שאי אפשר להבחין בשינויים של פיקסלים תקינים.
+//
+להלן תוצאות הפעלת הפעולות על התמונה (אחריות הצפייה בתוכן על הצופה בלבד).
+
+\selectlanguage{english}
+\begin{figure}
+  \centering
+  \includegraphics{means1.PNG}
+  \caption{local-means, environment-size = 1}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics{means2.PNG}
+  \caption{local-means, environment-size = 2}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics{means3.PNG}
+  \caption{local-means, environment-size = 3}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics{means11.PNG}
+  \caption{$(local-means)^2$, environment-size = 1}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics{medians1.PNG}
+  \caption{local-medians, environment-size = 1}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics{medians2.PNG}
+  \caption{local-medians, environment-size = 2}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics{medians3.PNG}
+  \caption{local-medians, environment-size = 3}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics{medians11.PNG}
+  \caption{$(local-medians)^2$, environment-size = 1}
+\end{figure}
+
+\selectlanguage{english}
+
+\begin{figure}
+  \centering
+  \includegraphics{env1.PNG}
+  \caption{modified-local-medians, environment-size=1}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics{env2.PNG}
+  \caption{modified-local-medians, environment-size=2}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics{mm2.PNG}
+  \caption{$(modified-local-medians)^2$, environment-size=1}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics{mm3.PNG}
+  \caption{$(modified-local-medians)^3$, environment-size=1}
+\end{figure}
+
+\selectlanguage{hebrew}
 
 \end{document}

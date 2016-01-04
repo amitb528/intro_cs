@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.18)  2 JAN 2016 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.18)  4 JAN 2016 23:55
 entering extended mode
 **\input hw.tex
 (hw.tex ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -77,76 +77,204 @@ Package babel Warning: No hyphenation patterns were preloaded for
 )) (C:\ProgramData\MiKTeX\2.9\tex\latex\babel-hebrew\he8enc.def
 File: HE8enc.def 8-bit Hebrew font encoding
 )
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count89
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-hebrew\hebfont.sty"
 Package: hebfont 2005/05/20 v1.2c Hebrew font switching commands (test version:
  still liable to change)
 )
-(hw.aux
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count90
+\float@exts=\toks20
+\float@box=\box26
+\@float@everytoks=\toks21
+\@floatcapt=\box27
+) (hw.aux
 LaTeX Font Info:    Try loading font information for HE8+cmr on input line 2.
- (C:\ProgramData\MiKTeX\2.9\tex\latex\babel-hebrew\he8cmr.fd
+
+(C:\ProgramData\MiKTeX\2.9\tex\latex\babel-hebrew\he8cmr.fd
 File: HE8cmr.fd Hebrew default font
 )
 LaTeX Font Info:    Font shape `HE8/cmr/m/n' will be
 (Font)              scaled to size 10.0pt on input line 2.
 )
-\openout1 = `hw.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for HE8/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for HE8/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\ucsencs.def"
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
+("D:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count91
+\scratchdimen=\dimen106
+\scratchbox=\box28
+\nofMPsegments=\count92
+\nofMParguments=\count93
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count94
+\MPscratchDim=\dimen107
+\MPnumerator=\count95
+\makeMPintoPDFobject=\count96
+\everyMPtoPDFconversion=\toks23
+)
 LaTeX Font Info:    Font shape `HE8/cmr/m/n' will be
-(Font)              scaled to size 14.4pt on input line 14.
+(Font)              scaled to size 14.4pt on input line 16.
 LaTeX Font Info:    Font shape `HE8/cmr/bx/n' will be
-(Font)              scaled to size 14.4pt on input line 14.
-
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-5.def"
+(Font)              scaled to size 14.4pt on input line 16.
+ ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-5.def"
 File: uni-5.def 2013/05/13 UCS: Unicode data U+0500..U+05FF
 )
 LaTeX Font Info:    Font shape `HE8/cmr/m/n' will be
-(Font)              scaled to size 12.0pt on input line 15.
+(Font)              scaled to size 12.0pt on input line 17.
 LaTeX Font Info:    Font shape `HE8/cmr/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 15.
+(Font)              scaled to size 12.0pt on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 17.
+(Font)              <7> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 17.
+(Font)              <5> on input line 19.
+LaTeX Font Info:    Font shape `HE8/cmr/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 69.
  [1
 
-{C:/Users/Amit/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (hw.aux) ) 
+{C:/Users/Amit/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<means1.PNG, id=12, 291.33844pt x 405.76593pt>
+File: means1.PNG Graphic file (type png)
+ <use means1.PNG>
+Package pdftex.def Info: means1.PNG used on input line 87.
+(pdftex.def)             Requested size: 291.33772pt x 405.76494pt.
+
+<means2.PNG, id=14, 292.09125pt x 407.27156pt>
+File: means2.PNG Graphic file (type png)
+ <use means2.PNG>
+Package pdftex.def Info: means2.PNG used on input line 93.
+(pdftex.def)             Requested size: 292.09052pt x 407.27055pt.
+
+<means3.PNG, id=15, 289.08pt x 405.76593pt>
+File: means3.PNG Graphic file (type png)
+ <use means3.PNG>
+Package pdftex.def Info: means3.PNG used on input line 99.
+(pdftex.def)             Requested size: 289.07928pt x 405.76494pt.
+
+<means11.PNG, id=16, 287.57437pt x 405.01312pt>
+File: means11.PNG Graphic file (type png)
+ <use means11.PNG>
+Package pdftex.def Info: means11.PNG used on input line 105.
+(pdftex.def)             Requested size: 287.57367pt x 405.01212pt.
+
+<medians1.PNG, id=17, 289.83281pt x 403.5075pt>
+File: medians1.PNG Graphic file (type png)
+ <use medians1.PNG>
+Package pdftex.def Info: medians1.PNG used on input line 111.
+(pdftex.def)             Requested size: 289.83209pt x 403.50652pt.
+
+<medians2.PNG, id=18, 287.57437pt x 404.26031pt>
+File: medians2.PNG Graphic file (type png)
+ <use medians2.PNG>
+Package pdftex.def Info: medians2.PNG used on input line 117.
+(pdftex.def)             Requested size: 287.57367pt x 404.25932pt.
+
+<medians3.PNG, id=19, 290.58563pt x 405.01312pt>
+File: medians3.PNG Graphic file (type png)
+ <use medians3.PNG>
+Package pdftex.def Info: medians3.PNG used on input line 123.
+(pdftex.def)             Requested size: 290.58492pt x 405.01212pt.
+
+<medians11.PNG, id=20, 291.33844pt x 402.75468pt>
+File: medians11.PNG Graphic file (type png)
+ <use medians11.PNG>
+Package pdftex.def Info: medians11.PNG used on input line 129.
+(pdftex.def)             Requested size: 291.33772pt x 402.7537pt.
+
+<env1.PNG, id=21, 288.3272pt x 405.76593pt>
+File: env1.PNG Graphic file (type png)
+ <use env1.PNG>
+Package pdftex.def Info: env1.PNG used on input line 137.
+(pdftex.def)             Requested size: 288.32648pt x 405.76494pt.
+
+<env2.PNG, id=22, 289.08pt x 405.76593pt>
+File: env2.PNG Graphic file (type png)
+ <use env2.PNG>
+Package pdftex.def Info: env2.PNG used on input line 143.
+(pdftex.def)             Requested size: 289.07928pt x 405.76494pt.
+
+<mm2.PNG, id=23, 289.08pt x 405.01312pt>
+File: mm2.PNG Graphic file (type png)
+ <use mm2.PNG>
+Package pdftex.def Info: mm2.PNG used on input line 149.
+(pdftex.def)             Requested size: 289.07928pt x 405.01212pt.
+
+<mm3.PNG, id=24, 289.83281pt x 406.51875pt>
+File: mm3.PNG Graphic file (type png)
+ <use mm3.PNG>
+Package pdftex.def Info: mm3.PNG used on input line 155.
+(pdftex.def)             Requested size: 289.83209pt x 406.51775pt.
+ [2] [3 <./means1.PNG>] [4 <./means2.PNG>] [5 <./means3.PNG>] [6 <./means11.PNG
+>] [7 <./medians1.PNG>] [8 <./medians2.PNG>] [9 <./medians3.PNG>] [10 <./median
+s11.PNG>] [11 <./env1.PNG>] [12 <./env2.PNG>] [13 <./mm2.PNG>] [14 <./mm3.PNG>]
+ (hw.aux) ) 
 Here is how much of TeX's memory you used:
- 1574 strings out of 493634
- 21054 string characters out of 3141316
- 86283 words of memory out of 3000000
- 4990 multiletter control sequences out of 15000+200000
- 7764 words of font info for 22 fonts, out of 3000000 for 9000
+ 2587 strings out of 493673
+ 34909 string characters out of 3141532
+ 102960 words of memory out of 3000000
+ 5917 multiletter control sequences out of 15000+200000
+ 8877 words of font info for 24 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 24i,6n,23p,511b,239s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C
-:/ProgramData/MiKTeX/2.9/dvips/base/culmus-he8.enc}<C:/ProgramData/MiKTeX/2.9/f
-onts/type1/public/culmus/DavidCLM-Bold.pfa><C:/ProgramData/MiKTeX/2.9/fonts/typ
-e1/public/culmus/DavidCLM-Medium.pfa><D:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr7.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb>
-Output written on hw.pdf (1 page, 69812 bytes).
+ 27i,6n,23p,568b,237s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/ProgramData/MiKTeX/2.9/dvips/base/culmus-he8.enc}<C:/ProgramData
+/MiKTeX/2.9/fonts/type1/public/culmus/DavidCLM-Bold.pfa><C:/ProgramData/MiKTeX/
+2.9/fonts/type1/public/culmus/DavidCLM-Medium.pfa><D:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on hw.pdf (14 pages, 1509165 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
+ 102 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
