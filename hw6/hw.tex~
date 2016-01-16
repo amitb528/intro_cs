@@ -1,0 +1,96 @@
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
+
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage[utf8x]{inputenc}
+\usepackage[hebrew, english]{babel}
+\usepackage{tikz}
+\usepackage{dsfont}
+\usepackage{listings}
+
+\usetikzlibrary{trees}
+
+\begin{document}
+\definecolor{keywords}{RGB}{255,0,90}
+\definecolor{comments}{RGB}{0,0,113}
+\definecolor{red}{RGB}{160,0,0}
+\definecolor{green}{RGB}{0,150,0}
+
+\selectlanguage{hebrew}
+\section*{שאלה 2}
+
+\subsection{א}
+
+המחרוזת $abcd$
+הפלט יהיה $['a', 'b', 'c', 'd']$
+
+\subsection{ב}
+
+\selectlanguage{english}
+\begin{lstlisting}
+>>> inter_to_bin(lz77_compress_new('abcdcbcdeeeabcdeee'))
+'011000010110001001100011011001000110001110000000001000001101100101011001010110010101100001100000000011100110'
+>>> len(_)
+108
+>>> inter_to_bin(lz77_compress2('abcdcbcdeeeabcdeee'))
+'0110000101100010011000110110010001100011100000000010000011011001010110010101100101100000000101100100100000000011100011'
+\end{lstlisting}
+
+\selectlanguage{hebrew}
+\section*{שאלה 3}
+
+\subsection*{א}
+
+\selectlanguage{english}
+\begin{center}
+  \begin{tikzpicture}[level/.style={sibling distance=40mm/#1}]
+    \node [circle, draw] {}
+    child {
+      child {node {a}}
+      child {node {b}}
+      }
+    child {
+      child {node {e}}
+      child {
+        child {node {c}}
+        child {node {d}}
+        }
+      };
+  \end{tikzpicture}
+\end{center}
+
+\begin{center}
+  \begin{tikzpicture}[level/.style={sibling distance=40mm/#1}]
+    \node [circle, draw] {}
+    child {node {e}}
+    child {
+      child {
+        child {node {a}}
+        child {node {b}}
+        }
+      child {
+        child {node {c}}
+        child {node {d}}
+      }
+    };
+  \end{tikzpicture}
+\end{center}
+
+\selectlanguage{hebrew}
+\subsection*{ב}
+
+קורפוס לדוגמא:
+
+$a_1 a_2 a_3 a_4 a_4 a_5 a_5 a_5 = a_1 \cdot a_2 \cdot a_3 \cdot a_4^2 \cdot a_5^3$
+
+\subsection*{ג}
+
+אמיר צודק. לדוגמא עבור הקורפוס:
+
+$a_1 a_1 a_2 a_2 a_2 a_3 a_3 a_3 a_3 a_4 a_4 a_4 a_4 a_4 = a_1^2 \cdot a_2^3 \cdot a_3^4 \cdot a_4^5$
+
+\end{document}

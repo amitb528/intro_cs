@@ -1,0 +1,1921 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=prv_hw 2016.1.16)  16 JAN 2016 22:46
+entering extended mode
+**&prv_hw ./_region_.tex
+(_region_.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+CUSTOMISED FORMAT. Preloaded files:
+        .
+ article.cls    2014/09/29 v1.4h Standard LaTeX document class
+  size10.clo    2014/09/29 v1.4h Standard LaTeX file (size option)
+ amsmath.sty    2013/01/14 v2.14 AMS math features
+ amstext.sty    2000/06/29 v2.01
+  amsgen.sty    1999/11/30 v2.0
+  amsbsy.sty    1999/11/29 v1.2d
+  amsopn.sty    1999/12/14 v2.01 operator names
+inputenc.sty    2015/03/17 v1.2c Input encoding file
+   utf8x.def    2004/10/17 UCS: Input encoding UTF-8
+     ucs.sty    2013/05/11 v2.2 UCS: Unicode input support
+uni-global.def    2013/05/13 UCS: Unicode global data
+   babel.sty    2015/08/03 3.9m The Babel package
+ bblopts.cfg    2006/07/31 v1.0 MiKTeX 'babel' configuration
+ rlbabel.def    2005/03/30 v2.3h Right-to-Left support from the babel system He
+brew language support from the babel system
+  hebrew.ldf    2004/02/20 v2.3h Hebrew language definition from the babel syst
+em Hebrew language support from the babel system
+ english.ldf    2012/08/20 v3.3p English support from the babel system
+  he8enc.def
+    tikz.sty    2015/08/07 v3.0.1a (rcs-revision 1.151)
+     pgf.sty    2015/08/07 v3.0.1a (rcs-revision 1.15)
+  pgfrcs.sty    2015/08/07 v3.0.1a (rcs-revision 1.31)
+everyshi.sty    2001/05/15 v3.00 EveryShipout Package (MS)
+  pgfrcs.code.tex
+ pgfcore.sty    2010/04/11 v3.0.1a (rcs-revision 1.7)
+graphicx.sty    2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+  keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
+graphics.sty    2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    1999/03/16 v1.09 sin cos tan (DPC)
+graphics.cfg    2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+  pdftex.def    2011/05/27 v0.06d Graphics/color for pdfTeX
+infwarerr.sty    2010/04/08 v1.3 Providing info/warning/error messages (HO)
+ ltxcmds.sty    2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+  pgfsys.sty    2014/07/09 v3.0.1a (rcs-revision 1.48)
+  pgfsys.code.tex
+pgfsyssoftpath.code.tex    2013/09/09  (rcs-revision 1.9)
+pgfsysprotocol.code.tex    2006/10/16  (rcs-revision 1.4)
+  xcolor.sty    2007/01/21 v2.11 LaTeX color extensions (UK)
+   color.cfg    2007/01/18 v1.5 color configuration of teTeX/TeXLive
+ pgfcore.code.tex
+pgfcomp-version-0-65.sty    2007/07/03 v3.0.1a (rcs-revision 1.7)
+pgfcomp-version-1-18.sty    2007/07/23 v3.0.1a (rcs-revision 1.1)
+  pgffor.sty    2013/12/13 v3.0.1a (rcs-revision 1.25)
+ pgfkeys.sty    
+ pgfkeys.code.tex
+ pgfmath.sty    
+ pgfmath.code.tex
+  pgffor.code.tex
+    tikz.code.tex
+  dsfont.sty    1995/08/01 v0.1 Double stroke roman fonts
+listings.sty    2015/06/04 1.6 (Carsten Heinz)
+ lstmisc.sty    2015/06/04 1.6 (Carsten Heinz)
+listings.cfg    2015/06/04 1.6 listings configuration
+        .
+No file _region_.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for HE8/cmr/m/n on input line 19.
+LaTeX Font Info:    Try loading font information for HE8+cmr on input line 19.
+(C:\ProgramData\MiKTeX\2.9\tex\latex\babel-hebrew\he8cmr.fd
+File: HE8cmr.fd Hebrew default font
+)
+LaTeX Font Info:    ... okay on input line 19.
+
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\preview\preview.sty"
+Package: preview 2010/02/14 11.89 (AUCTeX/preview-latex)
+
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\preview\prtightpage.def"
+\PreviewBorder=\dimen165
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\preview\prauctex.def"
+No auxiliary output files.
+
+
+\hbadness=\count129
+\hfuzz=\dimen166
+) ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\preview\prfootnotes.def")
+\pr@snippet=\count130
+\pr@box=\box41
+\pr@output=\toks38
+
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+) ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\ucsencs.def"
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+ABD: EveryShipout initializing macros
+("D:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count131
+\scratchdimen=\dimen167
+\scratchbox=\box42
+\nofMPsegments=\count132
+\nofMParguments=\count133
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count134
+\MPscratchDim=\dimen168
+\MPnumerator=\count135
+\makeMPintoPDFobject=\count136
+\everyMPtoPDFconversion=\toks40
+)
+\c@lstlisting=\count137
+  !name(hw.tex) !offset(-3) 
+LaTeX Font Info:    Font shape `HE8/cmr/m/n' will be
+(Font)              scaled to size 10.0pt on input line 24.
+
+! Preview: Snippet 1 started.
+<-><->
+      
+l.25 \section
+             *{שאלה 1}
+Not a real error.
+
+LaTeX Font Info:    Font shape `HE8/cmr/m/n' will be
+(Font)              scaled to size 14.4pt on input line 25.
+LaTeX Font Info:    Font shape `HE8/cmr/bx/n' will be
+(Font)              scaled to size 14.4pt on input line 25.
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.25 \section*{שאלה 1}
+                          
+Sorry, this optional e-TeX feature has been disabled.
+
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-5.def"
+File: uni-5.def 2013/05/13 UCS: Unicode data U+0500..U+05FF
+)
+! Argument of \everypar has an extra }.
+<inserted text> 
+                \par 
+l.25 \section*{שאלה 1}
+                          
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \everypar was complete.
+<to be read again> 
+                   \par 
+l.25 \section*{שאלה 1}
+                          
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! You can't use `\par' after \the.
+<recently read> \par 
+                     
+l.25 \section*{שאלה 1}
+                          
+I'm forgetting what you said and using zero instead.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.25 \section*{שאלה 1}
+                          
+Sorry, this optional e-TeX feature has been disabled.
+
+Preview: Tightpage -32891 -32891 32891 32891
+! Preview: Snippet 1 ended.(646447+19346x22609920).
+<-><->
+      
+l.25 \section*{שאלה 1}
+                          
+Not a real error.
+
+[1{C:/Users/Amit/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+! Preview: Snippet 2 started.
+<-><->
+      
+l.27 \subsection
+                *{ד}
+Not a real error.
+
+LaTeX Font Info:    Font shape `HE8/cmr/m/n' will be
+(Font)              scaled to size 12.0pt on input line 27.
+LaTeX Font Info:    Font shape `HE8/cmr/bx/n' will be
+(Font)              scaled to size 12.0pt on input line 27.
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.27 \subsection*{ד}
+                     
+Sorry, this optional e-TeX feature has been disabled.
+
+! Argument of \everypar has an extra }.
+<inserted text> 
+                \par 
+l.27 \subsection*{ד}
+                     
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \everypar was complete.
+<to be read again> 
+                   \par 
+l.27 \subsection*{ד}
+                     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! You can't use `\par' after \the.
+<recently read> \par 
+                     
+l.27 \subsection*{ד}
+                     
+I'm forgetting what you said and using zero instead.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.27 \subsection*{ד}
+                     
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 2 ended.(440402+16122x22609920).
+<-><->
+      
+l.27 \subsection*{ד}
+                     
+Not a real error.
+
+[2]
+! Improper \beginL.
+\@@number #1->\ifmmode \else \beginL 
+                                     \fi #1\ifmmode \else \endL \fi 
+l.76 
+     
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \endL.
+\@@number ...e \beginL \fi #1\ifmmode \else \endL 
+                                                  \fi 
+l.76 
+     
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 3 started.
+<-><->
+      
+l.78 \section
+             *{שאלה 2}
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.78 \section*{שאלה 2}
+                          
+Sorry, this optional e-TeX feature has been disabled.
+
+! Argument of \everypar has an extra }.
+<inserted text> 
+                \par 
+l.78 \section*{שאלה 2}
+                          
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \everypar was complete.
+<to be read again> 
+                   \par 
+l.78 \section*{שאלה 2}
+                          
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! You can't use `\par' after \the.
+<recently read> \par 
+                     
+l.78 \section*{שאלה 2}
+                          
+I'm forgetting what you said and using zero instead.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.78 \section*{שאלה 2}
+                          
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 3 ended.(646447+19346x22609920).
+<-><->
+      
+l.78 \section*{שאלה 2}
+                          
+Not a real error.
+
+[3]
+! Preview: Snippet 4 started.
+<-><->
+      
+l.80 \subsection
+                *{א}
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.80 \subsection*{א}
+                     
+Sorry, this optional e-TeX feature has been disabled.
+
+! Argument of \everypar has an extra }.
+<inserted text> 
+                \par 
+l.80 \subsection*{א}
+                     
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \everypar was complete.
+<to be read again> 
+                   \par 
+l.80 \subsection*{א}
+                     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! You can't use `\par' after \the.
+<recently read> \par 
+                     
+l.80 \subsection*{א}
+                     
+I'm forgetting what you said and using zero instead.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.80 \subsection*{א}
+                     
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 4 ended.(424673+16122x22609920).
+<-><->
+      
+l.80 \subsection*{א}
+                     
+Not a real error.
+
+[4]
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.82 ה
+       מחרוזת $abcd$.
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 5 started.
+<-><->
+      
+l.82 המחרוזת $
+                     abcd$.
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.82 המחרוזת $a
+                      bcd$.
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 5 ended.(455111+0x1252391).
+<-><->
+      
+l.82 המחרוזת $abcd$
+                          .
+Not a real error.
+
+[5]
+! Preview: Snippet 6 started.
+<-><->
+      
+l.83 ...�תקבל בשתי ההרצות יהיה $
+                                                  ['a', 'b', 'c', 'd']$
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.83 ...תקבל בשתי ההרצות יהיה $[
+                                                  'a', 'b', 'c', 'd']$
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 6 ended.(492688+163840x3961208).
+<-><->
+      
+l.83 ...הרצות יהיה $['a', 'b', 'c', 'd']$
+                                                  
+Not a real error.
+
+[6]
+! Preview: Snippet 7 started.
+<-><->
+      
+l.85 \subsection
+                *{ב}
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.85 \subsection*{ב}
+                     
+Sorry, this optional e-TeX feature has been disabled.
+
+! Argument of \everypar has an extra }.
+<inserted text> 
+                \par 
+l.85 \subsection*{ב}
+                     
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \everypar was complete.
+<to be read again> 
+                   \par 
+l.85 \subsection*{ב}
+                     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! You can't use `\par' after \the.
+<recently read> \par 
+                     
+l.85 \subsection*{ב}
+                     
+I'm forgetting what you said and using zero instead.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.85 \subsection*{ב}
+                     
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 7 ended.(440402+0x22609920).
+<-><->
+      
+l.85 \subsection*{ב}
+                     
+Not a real error.
+
+[7]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 89.
+ ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 89.
+
+! Preview: Snippet 8 started.
+<-><->
+      
+l.103 \subsection
+                 *{ג}
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.103 \subsection*{ג}
+                      
+Sorry, this optional e-TeX feature has been disabled.
+
+! Argument of \everypar has an extra }.
+<inserted text> 
+                \par 
+l.103 \subsection*{ג}
+                      
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \everypar was complete.
+<to be read again> 
+                   \par 
+l.103 \subsection*{ג}
+                      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! You can't use `\par' after \the.
+<recently read> \par 
+                     
+l.103 \subsection*{ג}
+                      
+I'm forgetting what you said and using zero instead.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.103 \subsection*{ג}
+                      
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 8 ended.(424673+16122x22609920).
+<-><->
+      
+l.103 \subsection*{ג}
+                      
+Not a real error.
+
+[8]
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.105 ל
+        א קיימת מחרוזת כזו.
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 9 started.
+<-><->
+      
+l.106 ...�כך היא שעבור החזרה של $
+                                                  res2$ בכל פעם ש $k<...
+
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.106 ...כך היא שעבור החזרה של $r
+                                                  es2$ בכל פעם ש $k<3...
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 9 ended.(422343+0x1253910).
+<-><->
+      
+l.106 ... היא שעבור החזרה של $res2$
+                                                   בכל פעם ש $k<3$ $l...
+
+Not a real error.
+
+[9]
+! Preview: Snippet 10 started.
+<-><->
+      
+l.106 ...החזרה של $res2$ בכל פעם ש $
+                                                  k<3$ $lz77\_compress\_new$...
+
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.106 ...�חזרה של $res2$ בכל פעם ש $k
+                                                  <3$ $lz77\_compress\_new$ ...
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 10 ended.(455111+25623x1563301).
+<-><->
+      
+l.106 ...זרה של $res2$ בכל פעם ש $k<3$
+                                                   $lz77\_compress\_new$ מ�...
+
+Not a real error.
+
+[10]
+! Preview: Snippet 11 started.
+<-><->
+      
+l.106 ...רה של $res2$ בכל פעם ש $k<3$ $
+                                                  lz77\_compress\_new$ מח�...
+
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.106 ...�ה של $res2$ בכל פעם ש $k<3$ $l
+                                                  z77\_compress\_new$ מחז...
+Sorry, this optional e-TeX feature has been disabled.
+
+LaTeX Font Info:    Font shape `HE8/cmr/m/n' will be
+(Font)              scaled to size 7.0pt on input line 106.
+LaTeX Font Info:    Font shape `HE8/cmr/m/n' will be
+(Font)              scaled to size 5.0pt on input line 106.
+! Preview: Snippet 11 ended.(455111+127431x5594454).
+<-><->
+      
+l.106 ...�ל פעם ש $k<3$ $lz77\_compress\_new$
+                                                   מחזירה תוצאה �...
+
+Not a real error.
+
+[11]
+! Preview: Snippet 12 started.
+<-><->
+      
+l.106 ...� זהה לזאת של הפונקציה $
+                                                  lz77\_compress2$ הבוח�...
+
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.106 ... זהה לזאת של הפונקציה $l
+                                                  z77\_compress2$ הבוחר...
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 12 ended.(455111+127431x4500864).
+<-><->
+      
+l.106 ...� של הפונקציה $lz77\_compress2$
+                                                   הבוחרת להציג �...
+
+Not a real error.
+
+[12]
+! Preview: Snippet 13 started.
+<-><->
+      
+l.107 ...�הראות כי ערך החזרה של $
+                                                  lz77\_compress\_new$ הו�...
+
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.107 ...הראות כי ערך החזרה של $l
+                                                  z77\_compress\_new$ הוא...
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 13 ended.(455111+127431x5594454).
+<-><->
+      
+l.107 ...�ך החזרה של $lz77\_compress\_new$
+                                                   הוא זה שהמחרו�...
+
+Not a real error.
+
+[13]
+! Preview: Snippet 14 started.
+<-><->
+      
+l.107 ...�ן יוחזר ערך שונה מזה ש$
+                                                  lz77\_compress2$ תחזי�...
+
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.107 ...ן יוחזר ערך שונה מזה ש$l
+                                                  z77\_compress2$ תחזיר...
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 14 ended.(455111+127431x4500864).
+<-><->
+      
+l.107 ...�רך שונה מזה ש$lz77\_compress2$
+                                                   תחזיר אם ורק א...
+
+Not a real error.
+
+[14]
+! Preview: Snippet 15 started.
+<-><->
+      
+l.110 \section
+              *{שאלה 3}
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.110 \section*{שאלה 3}
+                           
+Sorry, this optional e-TeX feature has been disabled.
+
+! Argument of \everypar has an extra }.
+<inserted text> 
+                \par 
+l.110 \section*{שאלה 3}
+                           
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \everypar was complete.
+<to be read again> 
+                   \par 
+l.110 \section*{שאלה 3}
+                           
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! You can't use `\par' after \the.
+<recently read> \par 
+                     
+l.110 \section*{שאלה 3}
+                           
+I'm forgetting what you said and using zero instead.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.110 \section*{שאלה 3}
+                           
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 15 ended.(646447+19346x22609920).
+<-><->
+      
+l.110 \section*{שאלה 3}
+                           
+Not a real error.
+
+[15]
+! Preview: Snippet 16 started.
+<-><->
+      
+l.112 \subsection
+                 *{א}
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.112 \subsection*{א}
+                      
+Sorry, this optional e-TeX feature has been disabled.
+
+! Argument of \everypar has an extra }.
+<inserted text> 
+                \par 
+l.112 \subsection*{א}
+                      
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \everypar was complete.
+<to be read again> 
+                   \par 
+l.112 \subsection*{א}
+                      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! You can't use `\par' after \the.
+<recently read> \par 
+                     
+l.112 \subsection*{א}
+                      
+I'm forgetting what you said and using zero instead.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.112 \subsection*{א}
+                      
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 16 ended.(424673+16122x22609920).
+<-><->
+      
+l.112 \subsection*{א}
+                      
+Not a real error.
+
+[16]
+
+! Package tikz Error: Sorry, some package has redefined the meaning of the math
+-mode dollar sign. This is incompatible with tikz and its calc library and migh
+t cause unrecoverable errors.
+
+See the tikz package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128       };
+              
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+! Improper \beginL.
+\@@number #1->\ifmmode \else \beginL 
+                                     \fi #1\ifmmode \else \endL \fi 
+l.147 \end{center}
+                  
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \endL.
+\@@number ...e \beginL \fi #1\ifmmode \else \endL 
+                                                  \fi 
+l.147 \end{center}
+                  
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 17 started.
+<-><->
+      
+l.150 \subsection
+                 *{ב}
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.150 \subsection*{ב}
+                      
+Sorry, this optional e-TeX feature has been disabled.
+
+! Argument of \everypar has an extra }.
+<inserted text> 
+                \par 
+l.150 \subsection*{ב}
+                      
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \everypar was complete.
+<to be read again> 
+                   \par 
+l.150 \subsection*{ב}
+                      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! You can't use `\par' after \the.
+<recently read> \par 
+                     
+l.150 \subsection*{ב}
+                      
+I'm forgetting what you said and using zero instead.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.150 \subsection*{ב}
+                      
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 17 ended.(440402+0x22609920).
+<-><->
+      
+l.150 \subsection*{ב}
+                      
+Not a real error.
+
+[17]
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.152 ק
+        ורפוס לדוגמא:
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 18 started.
+<-><->
+      
+l.154 $
+       a_1 a_2 a_3 a_4 a_4 a_5 a_5 a_5 = a_1 \cdot a_2 \cdot a_3 \cdot a_4^2...
+
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.154 $a
+        _1 a_2 a_3 a_4 a_4 a_5 a_5 a_5 = a_1 \cdot a_2 \cdot a_3 \cdot a_4^2...
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 18 ended.(533465+162667x11092489).
+<-><->
+      
+l.154 ...ot a_2 \cdot a_3 \cdot a_4^2 \cdot a_5^3$
+                                                  
+Not a real error.
+
+[18]
+! Preview: Snippet 19 started.
+<-><->
+      
+l.156 \subsection
+                 *{ג}
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.156 \subsection*{ג}
+                      
+Sorry, this optional e-TeX feature has been disabled.
+
+! Argument of \everypar has an extra }.
+<inserted text> 
+                \par 
+l.156 \subsection*{ג}
+                      
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \everypar was complete.
+<to be read again> 
+                   \par 
+l.156 \subsection*{ג}
+                      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! You can't use `\par' after \the.
+<recently read> \par 
+                     
+l.156 \subsection*{ג}
+                      
+I'm forgetting what you said and using zero instead.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.156 \subsection*{ג}
+                      
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 19 ended.(424673+16122x22609920).
+<-><->
+      
+l.156 \subsection*{ג}
+                      
+Not a real error.
+
+[19]
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.158 א
+        מיר צודק. לדוגמא עבור הקורפוס:
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 20 started.
+<-><->
+      
+l.160 $
+       a_1 a_1 a_2 a_2 a_2 a_3 a_3 a_3 a_3 a_4 a_4 a_4 a_4 a_4 = a_1^2 \cdot...
+
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.160 $a
+        _1 a_1 a_2 a_2 a_2 a_3 a_3 a_3 a_3 a_4 a_4 a_4 a_4 a_4 = a_1^2 \cdot...
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 20 ended.(533465+162667x13821275).
+<-><->
+      
+l.160 ..._1^2 \cdot a_2^3 \cdot a_3^4 \cdot a_4^5$
+                                                  
+Not a real error.
+
+[20]
+! Preview: Snippet 21 started.
+<-><->
+      
+l.163 \section
+              *{שאלה 4}
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.163 \section*{שאלה 4}
+                           
+Sorry, this optional e-TeX feature has been disabled.
+
+! Argument of \everypar has an extra }.
+<inserted text> 
+                \par 
+l.163 \section*{שאלה 4}
+                           
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \everypar was complete.
+<to be read again> 
+                   \par 
+l.163 \section*{שאלה 4}
+                           
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! You can't use `\par' after \the.
+<recently read> \par 
+                     
+l.163 \section*{שאלה 4}
+                           
+I'm forgetting what you said and using zero instead.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.163 \section*{שאלה 4}
+                           
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 21 ended.(646447+19346x22609920).
+<-><->
+      
+l.163 \section*{שאלה 4}
+                           
+Not a real error.
+
+[21]
+! Preview: Snippet 22 started.
+<-><->
+      
+l.165 \subsection
+                 *{א}
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.165 \subsection*{א}
+                      
+Sorry, this optional e-TeX feature has been disabled.
+
+! Argument of \everypar has an extra }.
+<inserted text> 
+                \par 
+l.165 \subsection*{א}
+                      
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \everypar was complete.
+<to be read again> 
+                   \par 
+l.165 \subsection*{א}
+                      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! You can't use `\par' after \the.
+<recently read> \par 
+                     
+l.165 \subsection*{א}
+                      
+I'm forgetting what you said and using zero instead.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.165 \subsection*{א}
+                      
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 22 ended.(424673+16122x22609920).
+<-><->
+      
+l.165 \subsection*{א}
+                      
+Not a real error.
+
+[22]
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.166 ה
+        מרחק של הקוד הוא 2.
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 23 started.
+<-><->
+      
+l.168 \subsection
+                 *{ב}
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.168 \subsection*{ב}
+                      
+Sorry, this optional e-TeX feature has been disabled.
+
+! Argument of \everypar has an extra }.
+<inserted text> 
+                \par 
+l.168 \subsection*{ב}
+                      
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \everypar was complete.
+<to be read again> 
+                   \par 
+l.168 \subsection*{ב}
+                      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! You can't use `\par' after \the.
+<recently read> \par 
+                     
+l.168 \subsection*{ב}
+                      
+I'm forgetting what you said and using zero instead.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.168 \subsection*{ב}
+                      
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 23 ended.(440402+0x22609920).
+<-><->
+      
+l.168 \subsection*{ב}
+                      
+Not a real error.
+
+[23]
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.170 ת
+        מיד ניתן לגלות כי נפלה טעות כלשהי.
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 24 started.
+<-><->
+      
+l.181 $
+       $1000 \cdot 0000 \cdot 1000$$
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.181 $$
+        1000 \cdot 0000 \cdot 1000$$
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \beginR.
+<recently read> \beginR 
+                        
+l.181 $$1000 \cdot 0000 \cdot 1000$$
+                                    
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 24 ended.(786432+0x22609920).
+<-><->
+      
+l.181 $$1000 \cdot 0000 \cdot 1000$$
+                                    
+Not a real error.
+
+[24]
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.183 י
+        שנו רק ביט אחד שצריך לתקן.
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 25 started.
+<-><->
+      
+l.192 $
+       $1111 \cdot 1111 \cdot 0001$$
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.192 $$
+        1111 \cdot 1111 \cdot 0001$$
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \beginR.
+<recently read> \beginR 
+                        
+l.192 $$1111 \cdot 1111 \cdot 0001$$
+                                    
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 25 ended.(786432+0x22609920).
+<-><->
+      
+l.192 $$1111 \cdot 1111 \cdot 0001$$
+                                    
+Not a real error.
+
+[25]
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.194 ש
+        ני מקורות אפשריים:
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 26 started.
+<-><->
+      
+l.196 $
+       $1111 \cdot 1110 \cdot 0001$$
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.196 $$
+        1111 \cdot 1110 \cdot 0001$$
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \beginR.
+<recently read> \beginR 
+                        
+l.196 $$1111 \cdot 1110 \cdot 0001$$
+                                    
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 26 ended.(786432+0x22609920).
+<-><->
+      
+l.196 $$1111 \cdot 1110 \cdot 0001$$
+                                    
+Not a real error.
+
+[26]
+! Preview: Snippet 27 started.
+<-><->
+      
+l.198 $
+       $1111 \cdot 1111 \cdot 0000$$
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.198 $$
+        1111 \cdot 1111 \cdot 0000$$
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \beginR.
+<recently read> \beginR 
+                        
+l.198 $$1111 \cdot 1111 \cdot 0000$$
+                                    
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 27 ended.(786432+0x22609920).
+<-><->
+      
+l.198 $$1111 \cdot 1111 \cdot 0000$$
+                                    
+Not a real error.
+
+[27]
+! Preview: Snippet 28 started.
+<-><->
+      
+l.200 \subsection
+                 *{ג}
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.200 \subsection*{ג}
+                      
+Sorry, this optional e-TeX feature has been disabled.
+
+! Argument of \everypar has an extra }.
+<inserted text> 
+                \par 
+l.200 \subsection*{ג}
+                      
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \everypar was complete.
+<to be read again> 
+                   \par 
+l.200 \subsection*{ג}
+                      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! You can't use `\par' after \the.
+<recently read> \par 
+                     
+l.200 \subsection*{ג}
+                      
+I'm forgetting what you said and using zero instead.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.200 \subsection*{ג}
+                      
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 28 ended.(424673+16122x22609920).
+<-><->
+      
+l.200 \subsection*{ג}
+                      
+Not a real error.
+
+[28]
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.202 ל
+        פעמים ניתן לגלות כי נפלה טעות ולפעמים...
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 29 started.
+<-><->
+      
+l.206 $
+       $1111 \cdot 1000 \cdot 0011$$
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.206 $$
+        1111 \cdot 1000 \cdot 0011$$
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \beginR.
+<recently read> \beginR 
+                        
+l.206 $$1111 \cdot 1000 \cdot 0011$$
+                                    
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 29 ended.(786432+0x22609920).
+<-><->
+      
+l.206 $$1111 \cdot 1000 \cdot 0011$$
+                                    
+Not a real error.
+
+[29]
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.208 ז
+        והי מחרוזת חוקית, אך יכלה להיות מחרוז�...
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 30 started.
+<-><->
+      
+l.210 $
+       $1111 \cdot 1100 \cdot 0010$$
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.210 $$
+        1111 \cdot 1100 \cdot 0010$$
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \beginR.
+<recently read> \beginR 
+                        
+l.210 $$1111 \cdot 1100 \cdot 0010$$
+                                    
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 30 ended.(786432+0x22609920).
+<-><->
+      
+l.210 $$1111 \cdot 1100 \cdot 0010$$
+                                    
+Not a real error.
+
+[30]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 �
+       �פעמים ניתן לתקן את השגיאות ולפעמים לא.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.213 ל
+        פעמים ניתן לתקן את השגיאות ולפעמים לא.
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 31 started.
+<-><->
+      
+l.217 $
+       $0000 \cdot 0011 1000$$
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.217 $$
+        0000 \cdot 0011 1000$$
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \beginR.
+<recently read> \beginR 
+                        
+l.217 $$0000 \cdot 0011 1000$$
+                              
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 31 ended.(786432+0x22609920).
+<-><->
+      
+l.217 $$0000 \cdot 0011 1000$$
+                              
+Not a real error.
+
+[31]
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.219 י
+        שנם שני ביטים שצריך לתקן.
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 32 started.
+<-><->
+      
+l.222 ... לנו לקבל שם את הערכים $
+                                                  0, 1, 2, 4$ על ידי מ...
+
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.222 ...לנו לקבל שם את הערכים $0
+                                                  , 1, 2, 4$ על ידי מ�...
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 32 ended.(422343+127431x2184531).
+<-><->
+      
+l.222 ...�בל שם את הערכים $0, 1, 2, 4$
+                                                   על ידי מחיקת ה...
+
+Not a real error.
+
+[32]
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.225 ד
+        וגמה שלא ניתן לתקן:
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 33 started.
+<-><->
+      
+l.227 $
+       $1111 \cdot 1100 \cdot 0000$$
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.227 $$
+        1111 \cdot 1100 \cdot 0000$$
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \beginR.
+<recently read> \beginR 
+                        
+l.227 $$1111 \cdot 1100 \cdot 0000$$
+                                    
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 33 ended.(786432+0x22609920).
+<-><->
+      
+l.227 $$1111 \cdot 1100 \cdot 0000$$
+                                    
+Not a real error.
+
+[33]
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.229 ש
+        ני מקורות אפשריים:
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 34 started.
+<-><->
+      
+l.231 $
+       $1111 \cdot 1111 \cdot 0000$$
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.231 $$
+        1111 \cdot 1111 \cdot 0000$$
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \beginR.
+<recently read> \beginR 
+                        
+l.231 $$1111 \cdot 1111 \cdot 0000$$
+                                    
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 34 ended.(786432+0x22609920).
+<-><->
+      
+l.231 $$1111 \cdot 1111 \cdot 0000$$
+                                    
+Not a real error.
+
+[34]
+! Preview: Snippet 35 started.
+<-><->
+      
+l.233 $
+       $1111 \cdot 1110 \cdot 0001$$
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.233 $$
+        1111 \cdot 1110 \cdot 0001$$
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \beginR.
+<recently read> \beginR 
+                        
+l.233 $$1111 \cdot 1110 \cdot 0001$$
+                                    
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 35 ended.(786432+0x22609920).
+<-><->
+      
+l.233 $$1111 \cdot 1110 \cdot 0001$$
+                                    
+Not a real error.
+
+[35]
+! Preview: Snippet 36 started.
+<-><->
+      
+l.235 \subsection
+                 *{ד}
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.235 \subsection*{ד}
+                      
+Sorry, this optional e-TeX feature has been disabled.
+
+! Argument of \everypar has an extra }.
+<inserted text> 
+                \par 
+l.235 \subsection*{ד}
+                      
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \everypar was complete.
+<to be read again> 
+                   \par 
+l.235 \subsection*{ד}
+                      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! You can't use `\par' after \the.
+<recently read> \par 
+                     
+l.235 \subsection*{ד}
+                      
+I'm forgetting what you said and using zero instead.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.235 \subsection*{ד}
+                      
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 36 ended.(440402+16122x22609920).
+<-><->
+      
+l.235 \subsection*{ד}
+                      
+Not a real error.
+
+[36]
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.237 ת
+        מיד ניתן לגלות כי נפלה טעות כלשהי.
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \beginL.
+\@@number #1->\ifmmode \else \beginL 
+                                     \fi #1\ifmmode \else \endL \fi 
+l.240 
+      
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \endL.
+\@@number ...e \beginL \fi #1\ifmmode \else \endL 
+                                                  \fi 
+l.240 
+      
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.241 ל
+        פעמים ניתן לתקן את השגיאות ולפעמים לא.
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 37 started.
+<-><->
+      
+l.244 $
+       $0000 \cdot 0001 \cdot 0110 \Leftarrow 0000 \cdot 0001 \cdot 0111$$
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.244 $$
+        0000 \cdot 0001 \cdot 0110 \Leftarrow 0000 \cdot 0001 \cdot 0111$$
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \beginR.
+<recently read> \beginR 
+                        
+l.244 ...0 \Leftarrow 0000 \cdot 0001 \cdot 0111$$
+                                                  
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 37 ended.(786432+0x22609920).
+<-><->
+      
+l.244 ...0 \Leftarrow 0000 \cdot 0001 \cdot 0111$$
+                                                  
+Not a real error.
+
+[37]
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.246 ב
+        אזור הביקורת הסיבית הרביעי )מימין( הו�...
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.249 ד
+        וגמה שלא ניתן לתקן:
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 38 started.
+<-><->
+      
+l.251 $
+       $1111 \cdot 1111 \cdot 0001$$
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.251 $$
+        1111 \cdot 1111 \cdot 0001$$
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \beginR.
+<recently read> \beginR 
+                        
+l.251 $$1111 \cdot 1111 \cdot 0001$$
+                                    
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 38 ended.(786432+0x22609920).
+<-><->
+      
+l.251 $$1111 \cdot 1111 \cdot 0001$$
+                                    
+Not a real error.
+
+[38]
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.253 ש
+        ני מקורות אפשריים:
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 39 started.
+<-><->
+      
+l.255 $
+       $1111 \cdot 1111 \cdot 0000$$
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.255 $$
+        1111 \cdot 1111 \cdot 0000$$
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \beginR.
+<recently read> \beginR 
+                        
+l.255 $$1111 \cdot 1111 \cdot 0000$$
+                                    
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 39 ended.(786432+0x22609920).
+<-><->
+      
+l.255 $$1111 \cdot 1111 \cdot 0000$$
+                                    
+Not a real error.
+
+[39]
+! Preview: Snippet 40 started.
+<-><->
+      
+l.256 $
+       $1111 \cdot 1110 \cdot 0001$$
+Not a real error.
+
+! Improper \beginR.
+\rl@everypar ...@rl {\setbox \z@ \lastbox \beginR 
+                                                  \usebox \z@ }\fi 
+l.256 $$
+        1111 \cdot 1110 \cdot 0001$$
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \beginR.
+<recently read> \beginR 
+                        
+l.256 $$1111 \cdot 1110 \cdot 0001$$
+                                    
+Sorry, this optional e-TeX feature has been disabled.
+
+! Preview: Snippet 40 ended.(786432+0x22609920).
+<-><->
+      
+l.256 $$1111 \cdot 1110 \cdot 0001$$
+                                    
+Not a real error.
+
+[40]
+! Improper \beginL.
+\@@number #1->\ifmmode \else \beginL 
+                                     \fi #1\ifmmode \else \endL \fi 
+l.258 \end{document}
+                    
+Sorry, this optional e-TeX feature has been disabled.
+
+! Improper \endL.
+\@@number ...e \beginL \fi #1\ifmmode \else \endL 
+                                                  \fi 
+l.258 \end{document}
+                    
+Sorry, this optional e-TeX feature has been disabled.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1299 strings out of 480034
+ 17353 string characters out of 2877909
+ 333712 words of memory out of 3000000
+ 18007 multiletter control sequences out of 15000+200000
+ 10843 words of font info for 32 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 42i,12n,45p,394b,1217s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/ProgramData/MiKTeX/2.9/dvips/base/culmus-he8.enc}<C:/ProgramData/MiKTeX/2
+.9/fonts/type1/public/culmus/DavidCLM-Bold.pfa><D:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy7.pfb>
+Output written on _region_.pdf (40 pages, 77121 bytes).
+PDF statistics:
+ 160 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+
