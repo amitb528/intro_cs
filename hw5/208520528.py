@@ -290,6 +290,7 @@ class SimpleDict:
                 return
         chain.append([key, value])
 
+
 #########################################
 ### SimpleDict CODE ###
 #########################################
@@ -327,23 +328,44 @@ def sort_by_cnt(count_dict):
 ############
 
 def SomePairs():
-    pass  # replace this with your code
+    i = 1
+    j = 0
+    while True:
+        while j < i:
+            yield (i, j)
+            j += 1
+        i += 1
+        j = 0
 
 
 def RevGen(PairsGen):
-    pass  # replace this with your code
+    g = PairsGen()
+    while True:
+        couple = next(g)
+        yield (couple[1], couple[0])
 
 
 def UnionGenerators(gen1, gen2):
-    pass  # replace this with your code
+    while True:
+        yield next(gen1)
+        yield next(gen2)
 
 
 def EqPairs():
-    pass  # replace this with your code
+    n = 0
+    while True:
+        yield (n, n)
+        n += 1
 
 
 def AllPairs():
-    pass  # replace this with your code
+    greater_smaller = SomePairs()
+    smaller_greater = RevGen(SomePairs)
+    equal = EqPairs()
+    gen = UnionGenerators(greater_smaller, smaller_greater)
+    gen = UnionGenerators(gen, equal)
+    while True:
+        yield next(gen)
 
 
 ############
@@ -357,7 +379,9 @@ from matrix import *
 def upside_down(im):
     n, m = im.dim()
     im2 = Matrix(n, m)
-    pass  # replace this with your 3 lines of code
+    for i in range(n):
+        for j in range(m):
+            im2[i, j] = im[n-i-1, j]
     return im2
 
 
@@ -365,7 +389,6 @@ def upside_down(im):
 ## Local denoising methods
 def copy(mat):
     ''' brand new copy of matrix '''
-
     n, m = mat.dim()
     new = Matrix(n, m)
     for i in range(n):
@@ -395,7 +418,42 @@ def modified_local_medians(A, k=1):
 
 
 def modified_median(lst):
-    pass  # remove pass add your implementation here
+    px = lst[len(lst)//2]
+    l = list()
+    if px < 5:
+        for i in lst:
+            if i >= 5:
+                l.append(i)
+        return median(l) if len(l) != 0 else px
+    elif px > 250:
+        for i in lst:
+            if i <= 250:
+                l.append(i)
+        return median(l) if len(l) != 0 else px
+    else:
+        return px
+
+
+def average(lst):
+    l = len(lst)
+    return round(sum(lst)/l)
+
+
+def median(lst):
+    sort_lst = sorted(lst)
+    l = len(sort_lst)
+    if l%2==1:    # odd number of elements. well defined median
+        return sort_lst[l//2]
+    else:         # even number of elements. average of middle two
+        return (int(sort_lst[-1+l//2]) + int(sort_lst[l//2])) // 2
+
+
+def local_means(A, k=1):
+    return local_operator(A, average, k)
+
+
+def local_medians(A, k=1):
+    return local_operator(A, median, k)
 
 
 ########
@@ -514,3 +572,40 @@ def test():
         print("error in RevGen()")
     if gen != None and {(x, y) for (x, y) in gen} != {(6, 3), (4, 2), (0, 0), (2, 1)}:  # order of pairs does not matter
         print("error in RevGen()")
+
+    gen = SomePairs()
+    l = list()
+    for i in range(1000):
+        l.append(next(gen))
+    if (4, 2) not in l or (7, 2) not in l or (2, 2) in l \
+            or (3, 1) not in l:
+        print("error in SomePairs()")
+
+    gen = RevGen(SomePairs)
+    l = list()
+    for i in range(1000):
+        val = next(gen)
+        if val[0] > val[1]:
+            print("error in RevGen() i > j")
+        l.append(val)
+    if (4, 7) not in l or (2, 8) not in l or (2, 2) in l:
+        print("error in RevGen()")
+
+    gen = AllPairs()
+    l = list()
+    for i in range(10000):
+        l.append(next(gen))
+    i = 5
+    if (5, 5) not in l or (2, 6) not in l or \
+            (7, 8) not in l or (9, 2) not in l:
+        print("error in AllPairs()")
+
+    print("done")
+
+
+def test_images():
+    im = Matrix.load('atallbuilding.bitmap')
+    for i in range(1,4):
+        im2 = im
+        im2 = modified_local_medians(im2, i)
+        im2.display('env'+str(i))
